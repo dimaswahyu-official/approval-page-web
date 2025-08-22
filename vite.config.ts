@@ -13,6 +13,7 @@ export default defineConfig({
       },
     }),
   ],
+  base: '/approval-page-web/',
   server: {
     proxy: {
       "/api": {
